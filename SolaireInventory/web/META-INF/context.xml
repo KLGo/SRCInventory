@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+  <Resource name="jdbc/Solaire" auth="Container"
+            type="javax.sql.DataSource" username="sa" password="1234"
+            driverClassName="net.sourceforge.jtds.jdbc.Driver" 
+            url="jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Solaire;SelectMethod=cursor;"
+            maxActive="50" 
+            validationQuery="Select 1"
+            />
+
+</Context>
